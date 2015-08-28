@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "GillSansC";
+    src: url("GillSansC.eot");
+    src: url("GillSansC.eot?#iefix") format("embedded-opentype"),
+         url("GillSansC.woff") format("woff"),
+         url("GillSansC.ttf") format("truetype"),
+         url("GillSansC.svg#JournalRegular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+* { margin: 0px; padding: 0px; color:#222; }
+body { background-color: rgb(255, 255, 255); }
+a { text-decoration: none; border-bottom: 1px solid; color:#005db2;}
+a:hover { border-bottom: 0px none; }
+.center { width: 600px; height: 300px; position: absolute; left: 50%; top: 45%; margin: -150px 0px 0px -300px; text-align: center; font: 200 16px/20px 'GillSansC'; }
+h1 { margin: 0px 0px 45px; font-weight:bold; font-size: 62px; letter-spacing: -2px; }
+p { font-size: 1.2em; margin: 10px 0px 25px; color:#6e6e6e; line-height: 1.2em;}
+.location { color:#bbb; margin-bottom:30px;}
+
